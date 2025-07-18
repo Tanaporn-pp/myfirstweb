@@ -1,6 +1,94 @@
-<html>
- <body>
-  <h1>Tanaporn</h1>
-  <h2>631510099</h2>
- </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Macaron CMU</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fbeaff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffd6e8;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-top: 10px;
+    }
+    .slogan {
+      font-style: italic;
+      font-size: 1.2em;
+      color: #aa5c84;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background-color: #fff0f5;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .price {
+      font-size: 1.1em;
+      margin: 10px 0;
+      color: #e26a9e;
+    }
+    footer {
+      background-color: #f7c1da;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Macaron CMU logo">
+    <h1>Macaron CMU</h1>
+    <p class="slogan">"มาการองหวานหอมละมุน เติมสีสันชีวิตนักศึกษา!"</p>
+  </header>
+
+  <div class="products">
+    <div class="card">
+      <img src="macaron1.jpg" alt="Macaron Strawberry">
+      <h2>Strawberry Delight</h2>
+      <p class="price">฿35 / ชิ้น</p>
+    </div>
+    <div class="card">
+      <img src="macaron2.jpg" alt="Macaron Matcha">
+      <h2>Matcha Dream</h2>
+      <p class="price">฿40 / ชิ้น</p>
+    </div>
+    <div class="card">
+      <img src="macaron3.jpg" alt="Macaron Lavender">
+      <h2>Lavender Bliss</h2>
+      <p class="price">฿38 / ชิ้น</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Macaron CMU | หวานละมุนทุกคำสัมผัสจากเชียงใหม่
+  </footer>
+
+</body>
 </html>
